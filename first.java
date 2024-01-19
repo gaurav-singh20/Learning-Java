@@ -24,7 +24,7 @@ class HelloWorld {
       // System.out.println(x+s+y+z);
       // System.out.println(x+y+z);
       long a = x;//conversion
-      System.out.print(a);
+      System.out.println(a);
     }
 }
 
@@ -35,8 +35,8 @@ class HelloWorld {
       long y=x; //conversion
       char ch='B';
       int w=ch;
-      System.out.print(y);
-      System.out.print(w);
+      System.out.println(y);
+      System.out.println(w);
     }
 }
 
@@ -45,6 +45,6 @@ class HelloWorld {
     public static void main(String[] args) {
       int x=37;
       byte z=(byte)x;
-      System.out.print(z);
+      System.out.println(z);
     }
 }
